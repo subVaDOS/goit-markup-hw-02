@@ -2,13 +2,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
-.header {
+.hdr {
   background: #fff;
   width: 1440px;
-  height: 200px;
+  height: 200;
 }
 
 .text-logo {
@@ -19,6 +19,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-left: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .hdr-logo {
@@ -35,7 +38,9 @@ body {
 }
 
 .hdr-nav {
-  align-items: center;
+  margin-left: 347px;
+  margin-right: 832px;
+  margin-top: 24px;
 }
 
 .naviget-link {
@@ -85,11 +90,19 @@ body {
 }
 
 .addr-s {
-  padding: auto;
+  margin-left: 940px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .top-block {
+  width: 1440px;
+  height: 600px;
   background: #2e2f42;
+}
+
+.h-one {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -99,6 +112,12 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  height: 120px;
+  padding-top: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-bottom: 48px;
 }
 
 .description {
@@ -107,7 +126,6 @@ body {
 
 .top-btn {
   border-radius: 4px;
-  padding: 16px 32px;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -118,17 +136,24 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.04em;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 636px;
+  margin-right: 635px;
+  margin-bottom: 188px;
+  cursor: pointer;
 }
 .top-btn:hover {
-  border-radius: 4px;
-  padding: 16px 32px;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
+  cursor: pointer;
 }
 p {
-  color: rgb(0, 0, 0);
+  color: #2e2f42;
 }
 
 ul,
