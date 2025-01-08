@@ -1,4 +1,13 @@
 /* шрифт  */
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: #fff;
@@ -7,41 +16,30 @@ body {
 
 .hdr {
   background: #fff;
-  width: 1440px;
-  height: 200;
 }
 
-.hdr-logo {
-  font-family: 'Raleway' sans-serif;
+.hdr-lg {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
-  margin-left: 156px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
-.text-logo {
-  text-decoration: none;
+.text-lg {
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
 
-.hdr-nav {
-  margin-left: 347px;
-  margin-right: 832px;
-  margin-top: 24px;
-}
-
 .naviget-link {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -51,28 +49,8 @@ body {
 .naviget-link:hover {
   color: #404bbf;
 }
-.naviget-link-contact {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.naviget-link-contact:hover {
-  color: #404bbf;
-}
-.naviget-link-contact:focus {
-  text-decoration: underline;
-  color: #2e2f42;
-}
-.naviget-link-contact:active {
-  text-decoration: underline;
-  color: #404bbf;
-}
+
 .addr-s-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
@@ -86,7 +64,7 @@ body {
 }
 
 .addr-s {
-  margin-left: 940px;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -99,7 +77,6 @@ body {
 }
 
 .h-one {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
 
@@ -127,7 +104,6 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -148,15 +124,27 @@ body {
   background: #404bbf;
   cursor: pointer;
 }
-p {
-  color: #2e2f42;
-}
-
-ul,
-ol {
-  list-style-type: none;
-}
 
 /* a {
   text-decoration: none;
 } */
+.ftr {
+  background: #2e2f42;
+}
+
+.ftr-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.text-lg-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
