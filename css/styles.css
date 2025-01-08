@@ -14,11 +14,11 @@ body {
   color: #434455;
 }
 
-.hdr {
+.hdra {
   background: #fff;
 }
 
-.hdr-lg {
+.hdra-lg {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -98,7 +98,8 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.top-btn:hover {
+.top-btn:hover,
+.top-btn:focus {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
