@@ -2,6 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #fff;
+  color: #2e2f42;
 }
 
 .header {
@@ -20,7 +21,7 @@ body {
   color: #4d5ae5;
 }
 
-.header-logo {
+.hdr-logo {
   width: 115px;
   height: 24px;
   font-family: 'Raleway', sans-serif;
@@ -33,11 +34,11 @@ body {
   color: #2e2f42;
 }
 
-.header-nav {
+.hdr-nav {
   align-items: center;
 }
 
-.nav-link {
+.naviget-link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -46,10 +47,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link:hover {
+.naviget-link:hover {
   color: #404bbf;
 }
-.nav-link-contact {
+.naviget-link-contact {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -58,14 +59,18 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link-contact:hover {
+.naviget-link-contact:hover {
   color: #404bbf;
 }
-.nav-link-contact:active {
+.naviget-link-contact:focus {
+  text-decoration: underline;
+  color: #2e2f42;
+}
+.naviget-link-contact:active {
   text-decoration: underline;
   color: #404bbf;
 }
-.address-link {
+.addr-s-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -75,11 +80,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-link:hover {
+.addr-s-link:hover {
   color: #404bbf;
 }
 
-.address {
+.addr-s {
   padding: auto;
 }
 
@@ -108,6 +113,11 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .top-btn:hover {
   border-radius: 4px;
