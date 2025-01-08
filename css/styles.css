@@ -46,7 +46,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.naviget-link:hover {
+.naviget-link:hover,
+.naviget-link:focus {
   color: #404bbf;
 }
 
@@ -62,12 +63,12 @@ body {
 .addr-s-link:hover {
   color: #404bbf;
 }
+.addr-s-link:focus {
+  color: #404bbf;
+}
 
 .addr-s {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-style: normal;
 }
 
 .top-block {
