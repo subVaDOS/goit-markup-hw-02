@@ -115,15 +115,6 @@ body {
   color: #f4f4fd;
 }
 
-.text-lg-t {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-
 .dscr-h {
   font-weight: 500;
   font-size: 20px;
@@ -183,4 +174,13 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.text-lg-t {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
