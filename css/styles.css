@@ -80,38 +80,22 @@ body {
 .h-one {
   font-weight: 700;
   font-size: 56px;
-
-  /* line-height: 60px; */
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
-  height: 120px;
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-bottom: 48px;
 }
 
 .top-btn {
   border-radius: 4px;
   width: 169px;
   height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-left: 636px;
-  margin-right: 635px;
-  margin-bottom: 188px;
   cursor: pointer;
 }
 .top-btn:hover {
