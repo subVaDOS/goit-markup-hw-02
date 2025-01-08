@@ -94,10 +94,6 @@ body {
   padding-bottom: 48px;
 }
 
-.description {
-  padding: auto;
-}
-
 .top-btn {
   border-radius: 4px;
   width: 169px;
@@ -141,7 +137,7 @@ body {
   color: #f4f4fd;
 }
 
-.text-lg-text {
+.text-lg-t {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
