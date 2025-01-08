@@ -72,8 +72,6 @@ body {
 }
 
 .top-block {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 
@@ -88,8 +86,6 @@ body {
 
 .top-btn {
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
   background: #4d5ae5;
   color: #fff;
   font-weight: 500;
@@ -100,8 +96,6 @@ body {
 }
 .top-btn:hover,
 .top-btn:focus {
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
   cursor: pointer;
